@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sveel logo">
+  <path
+    id="mark"
+    d="M34 24H78C101 24 112 39 112 64C112 89 101 104 78 104H46L52 118H26L34 104C24 103 18 95 18 84V44C18 32 25 24 34 24Z"
+    fill="#3D8DF3"
+  />
+
+  <defs>
+    <clipPath id="clip">
+      <use href="#mark" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- inner D contour -->
+    <path
+      d="M44 38H72C87 38 98 47 98 64C98 81 87 90 72 90H44"
+      stroke="rgba(255,255,255,0.9)"
+      stroke-width="14"
+    />
+
+    <!-- S-like ribbon -->
+    <path
+      d="M44 52C44 44 52 40 62 40H76C86 40 92 45 92 52C92 60 86 64 76 64H60C50 64 44 69 44 78C44 87 51 92 62 92H76C86 92 92 88 92 80"
+      stroke="#FFFFFF"
+      stroke-width="16"
+    />
+  </g>
+</svg>
