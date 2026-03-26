@@ -33,7 +33,7 @@
     <h1>Дизайн, который <span class="highlight">говорит</span><br>за вас громче слов</h1>
     <p>Мы создаём визуальные истории, которые влюбляют в бренд с первого взгляда. Продуманно, красиво, эффективно.</p>
     <div class="hero-buttons">
-      <a href="https://t.me/sveeldesign" class="btn-primary" target="_blank">✈️ Наш Telegram →</a>
+      <a href="https://t.me/design" class="btn-primary" target="_blank">✈️ Наш Telegram →</a>
       <a href="#contact" class="btn-secondary">💬 Обсудить проект</a>
     </div>
     <div class="hero-stats">
@@ -103,7 +103,7 @@
     <div class="section-label" style="margin: 0 auto 16px;">✦ Мы в Telegram</div>
     <h2 class="section-title">Следите за нашими<br>работами в <span class="blue">Telegram</span></h2>
     <p class="section-sub">Публикуем свежие проекты, закулисье, советы по дизайну и специальные предложения. Подписывайтесь — там интереснее!</p>
-    <a href="https://t.me/sveeldesign" class="btn-primary tg-btn" target="_blank">✈️ Подписаться на канал</a>
+    <a href="https://t.me/tg_sveel" class="btn-primary tg-btn" target="_blank">✈️ Подписаться на канал</a>
   </div>
 </section>
 
@@ -192,8 +192,8 @@
     <h2>Ваш следующий проект<br>заслуживает <span>лучшего дизайна</span></h2>
     <p>Расскажите нам о своей идее — мы знаем, как воплотить её в жизнь. Первая консультация бесплатна.</p>
     <div class="cta-buttons">
-      <a href="mailto:hello@sveel.design" class="btn-primary">✉️ Написать нам</a>
-      <a href="https://t.me/sveeldesign" class="btn-secondary">🚀 Telegram</a>
+      <a href="https://t.me/tg_sveel" class="btn-primary">✉️ Написать нам</a>
+      <a href="https://t.me/tg_sveel" class="btn-secondary">Telegram</a>
     </div>
   </div>
 </section>
@@ -216,7 +216,6 @@
 </footer>
 
 <script>
-  // Scroll animation
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -230,7 +229,6 @@
     observer.observe(el);
   });
 
-  // Smooth nav links
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
       const target = document.querySelector(a.getAttribute('href'));
@@ -241,7 +239,6 @@
     });
   });
 
-  // Nav shadow on scroll
   const nav = document.querySelector('nav');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 20) {
